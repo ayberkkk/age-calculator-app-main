@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $light-gray;
+  background-color: $off-white;
 }
 
 .age-card {
@@ -71,6 +71,7 @@ body {
       background-color: $purple;
       border: none;
       outline: none;
+      transition: 0.4s;
       &:hover {
         background-color: $off-black;
       }
@@ -87,6 +88,15 @@ body {
     small {
       color: $light-red;
     }
+    
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: $off-black;
+  a {
+    color: $purple
+  }
+}
   }
 }
 .confetti {
@@ -136,11 +146,3 @@ body {
   }
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  color: #fff;
-  a {
-    color: $pale-blue;
-  }
-}

@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: hsl(0deg, 0%, 86%);
+  background-color: hsl(0deg, 0%, 94%);
 }
 
 .age-card {
@@ -74,6 +74,7 @@ body {
   background-color: rgb(133, 77, 255);
   border: none;
   outline: none;
+  transition: 0.4s;
 }
 .age-card .container .submit-btn:hover {
   background-color: hsl(0deg, 0%, 8%);
@@ -91,6 +92,14 @@ body {
 }
 .age-card .container small {
   color: hsl(0deg, 100%, 67%);
+}
+.age-card .container .attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0deg, 0%, 8%);
+}
+.age-card .container .attribution a {
+  color: rgb(133, 77, 255);
 }
 
 .confetti {
