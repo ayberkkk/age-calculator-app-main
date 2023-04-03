@@ -48,13 +48,13 @@ body {
           align-items: center;
           font-size: 1.5rem;
         }
-		input:focus {
-			border-color: $purple !important;
-		}
-		input::placeholder {
-            font-size: 1.5rem;
-            font-weight: 800;
-          }
+        input:focus {
+          border-color: $purple !important;
+        }
+        input::placeholder {
+          font-size: 1.5rem;
+          font-weight: 800;
+        }
       }
     }
     .submit- {
@@ -71,9 +71,9 @@ body {
       background-color: $purple;
       border: none;
       outline: none;
-	  &:hover{
-		background-color: $off-black;
-	  }
+      &:hover {
+        background-color: $off-black;
+      }
     }
     .output-content h1 {
       font-size: 5rem;
@@ -89,50 +89,58 @@ body {
     }
   }
 }
-.confetti{
-	display: block;
-	margin: 0 auto;
-	border: 1px solid #ddd;
-	user-select: none;
-  }
-  
-  
-  .can{
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	overflow-y: hidden;
-  }
+.confetti {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  user-select: none;
+}
+
+.can {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow-y: hidden;
+}
 
 @media screen and (max-width: 992px) {
-.age-card {
-	width: 350px;
-	.container {
-		padding: 1rem;
-		.form-container {
-			margin-bottom: 5rem;
-			gap: 0;
-			justify-content: space-between;
-		}
-		.submit- {
-			position: relative;
-		}
-		.submit-btn {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-		}
-		.output-content {
-			margin-top: 3.5rem;
-			h1 {
-				font-size: 3.5rem;
-			}
-		}
-	}
+  .age-card {
+    width: 350px;
+    .container {
+      padding: 1rem;
+      .form-container {
+        margin-bottom: 5rem;
+        gap: 0;
+        justify-content: space-between;
+      }
+      .submit- {
+        position: relative;
+      }
+      .submit-btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .output-content {
+        margin-top: 3.5rem;
+        h1 {
+          font-size: 3.5rem;
+        }
+      }
+    }
+  }
 }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+  a {
+    color: $pale-blue;
+  }
 }
